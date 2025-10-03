@@ -9,31 +9,35 @@
         .box {
             width: 100px;
             height: 100px;
-            background-color: rgb(0, 255, 208);
-            animation-name: boxes;
-            animation-duration: 0.2s;
+            background-color: rgb(51, 108, 98);
+            animation-name: cat;
+            animation-duration:3s;
             text-align: center;
         }
 
-        @keyframes boxes {
+        @keyframes cat {
             0% {
                 background-color: red;
                 border-radius: 10%;
+                border: 2px solid black;
             }
 
             25% {
                 background-color: yellow;
                 border-radius: 20%;
+                border: 2px dashed black;
             }
 
             50% {
                 background-color: blue;
                 border-radius: 30%;
+                border: 12px dotted black;
             }
 
             100% {
                 background-color: green;
                 border-radius: 50%;
+                border: 2px double black;
             }
         }
     </style>
