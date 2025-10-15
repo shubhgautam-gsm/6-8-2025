@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<style>
+div {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  border: 1px solid black;
+  margin-left:200px;
+  transition:0.6s transform;
+
+}
+div:hover{
+  transform: scale(1,2);
+}
+</style>
 </head>
 <body>
-<img src="../imgs/items.jpg" alt="">
+
+<h1>The scale() Method</h1>
+
+<p>The scale() method increases or decreases the size of an element.</p>
+
+<div>
+This div element is decreased to be half of its original width and height.
+</div>
+
 </body>
 </html>
+
+
+
